@@ -5,7 +5,7 @@ const {Document, Packer, Paragraph, TextRun, AlignmentType, Footer, PageNumber, 
 const LANG = process.argv[2] || "es";
 const C = require(`./contenido_${LANG}.js`);
 const TX = require(`./tablas_${LANG}.js`);
-const FIG = path.join(__dirname, "..", "repo", "figuras");
+const FIG = [path.join(__dirname, "..", "repo", "figuras"), path.join(__dirname, "..", "figuras")].find(d => fs.existsSync(d));
 const FONT = "Times New Roman", SZ = 22;                    // 11 pt
 
 /* ---------- Referencias numeradas por orden de primera aparición ---------- */

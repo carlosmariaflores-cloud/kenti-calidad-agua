@@ -1,0 +1,2269 @@
+{
+ "columnas": [
+  [
+   "ph",
+   "unid. pH",
+   ""
+  ],
+  [
+   "ce",
+   "µS/cm",
+   ""
+  ],
+  [
+   "temp",
+   "°C",
+   ""
+  ],
+  [
+   "sdt",
+   "mg/L",
+   ""
+  ],
+  [
+   "od",
+   "mg/L",
+   ""
+  ],
+  [
+   "dbo",
+   "mg/L",
+   ""
+  ],
+  [
+   "sst",
+   "mg/L",
+   ""
+  ],
+  [
+   "turb",
+   "NTU",
+   ""
+  ],
+  [
+   "ca",
+   "mg/L",
+   ""
+  ],
+  [
+   "mg",
+   "mg/L",
+   ""
+  ],
+  [
+   "na",
+   "mg/L",
+   ""
+  ],
+  [
+   "k",
+   "mg/L",
+   ""
+  ],
+  [
+   "cl",
+   "mg/L",
+   ""
+  ],
+  [
+   "so4",
+   "mg/L",
+   ""
+  ],
+  [
+   "hco3",
+   "mg/L",
+   ""
+  ],
+  [
+   "no3",
+   "mg/L",
+   "NO3"
+  ],
+  [
+   "no2",
+   "mg/L",
+   "NO2"
+  ],
+  [
+   "f",
+   "mg/L",
+   ""
+  ],
+  [
+   "as",
+   "µg/L",
+   ""
+  ],
+  [
+   "b",
+   "mg/L",
+   ""
+  ],
+  [
+   "li",
+   "mg/L",
+   ""
+  ],
+  [
+   "fe",
+   "mg/L",
+   ""
+  ],
+  [
+   "mn",
+   "mg/L",
+   ""
+  ],
+  [
+   "pb",
+   "µg/L",
+   ""
+  ],
+  [
+   "cd",
+   "µg/L",
+   ""
+  ],
+  [
+   "cu",
+   "mg/L",
+   ""
+  ],
+  [
+   "zn",
+   "mg/L",
+   ""
+  ],
+  [
+   "u",
+   "µg/L",
+   ""
+  ],
+  [
+   "colt",
+   "NMP/100 mL",
+   ""
+  ],
+  [
+   "ecoli",
+   "NMP/100 mL",
+   ""
+  ]
+ ],
+ "normas": [
+  {
+   "id": "caa982",
+   "corto": "CAA art. 982",
+   "uso": "consumo",
+   "escala": "Nacional · Argentina"
+  },
+  {
+   "id": "who2022",
+   "corto": "OMS 2022",
+   "uso": "consumo",
+   "escala": "Internacional · OMS"
+  },
+  {
+   "id": "ue2020",
+   "corto": "UE 2020/2184",
+   "uso": "consumo",
+   "escala": "Regional · Unión Europea"
+  },
+  {
+   "id": "epa",
+   "corto": "EPA (EE.UU.)",
+   "uso": "consumo",
+   "escala": "Federal · Estados Unidos"
+  },
+  {
+   "id": "d831_t1",
+   "corto": "Dto. 831/93 T1",
+   "uso": "fuente",
+   "escala": "Nacional · Argentina"
+  },
+  {
+   "id": "d831_t2",
+   "corto": "Dto. 831/93 T2",
+   "uso": "acuatica",
+   "escala": "Nacional · Argentina"
+  },
+  {
+   "id": "d831_t5",
+   "corto": "Dto. 831/93 T5",
+   "uso": "riego",
+   "escala": "Nacional · Argentina"
+  },
+  {
+   "id": "fao29",
+   "corto": "FAO 29",
+   "uso": "riego",
+   "escala": "Internacional · FAO"
+  },
+  {
+   "id": "d831_t6",
+   "corto": "Dto. 831/93 T6",
+   "uso": "ganado",
+   "escala": "Nacional · Argentina"
+  },
+  {
+   "id": "ccme_ganado",
+   "corto": "CCME ganado",
+   "uso": "ganado",
+   "escala": "Nacional · Canadá"
+  },
+  {
+   "id": "anzg_ganado",
+   "corto": "ANZG ganado",
+   "uso": "ganado",
+   "escala": "Nacional · Australia y Nueva Zelanda"
+  },
+  {
+   "id": "jp_suido",
+   "corto": "Japón agua potable",
+   "uso": "consumo",
+   "escala": "Nacional · Japón"
+  },
+  {
+   "id": "jp_eqs_salud",
+   "corto": "Japón EQS salud",
+   "uso": "ambiental",
+   "escala": "Nacional · Japón"
+  },
+  {
+   "id": "jp_rio",
+   "corto": "Japón ríos (clase)",
+   "uso": "ambiental",
+   "escala": "Nacional · Japón"
+  },
+  {
+   "id": "jp_biota",
+   "corto": "Japón biota",
+   "uso": "acuatica",
+   "escala": "Nacional · Japón"
+  },
+  {
+   "id": "jp_ind",
+   "corto": "Japón agua industrial",
+   "uso": "industrial",
+   "escala": "Nacional · Japón"
+  },
+  {
+   "id": "jp_riego",
+   "corto": "Japón riego (arroz)",
+   "uso": "riego",
+   "escala": "Nacional · Japón"
+  }
+ ],
+ "muestras": [
+  {
+   "sitio": "P1",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 19,
+     "total": 31,
+     "exc": [
+      "as"
+     ],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 16,
+     "total": 22,
+     "exc": [
+      "as"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 18,
+     "total": 26,
+     "exc": [
+      "as"
+     ],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "as"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "b"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Cinc, Cobre",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "b",
+      "zn",
+      "cu"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Fluoruro",
+     "medidos": 11,
+     "total": 19,
+     "exc": [
+      "b",
+      "f"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "warn",
+     "txt": "Restricción ligera a moderada: Conductividad eléctrica, Sólidos disueltos totales, RAS (relación de adsorción de sodio), Boro, Bicarbonato",
+     "medidos": 8,
+     "total": 8,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "exc",
+     "txt": "No cumple: Cinc, Fluoruro",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "zn",
+      "f"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 13,
+     "total": 22,
+     "exc": [
+      "as"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 20,
+     "exc": [],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Fluoruro, Boro",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "as",
+      "f",
+      "b"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Fluoruro, Boro",
+     "medidos": 6,
+     "total": 10,
+     "exc": [
+      "as",
+      "f",
+      "b"
+     ],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 5,
+     "total": 5,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "exc",
+     "txt": "No cumple: Cinc",
+     "medidos": 1,
+     "total": 1,
+     "exc": [
+      "zn"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 4,
+     "total": 4,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "exc",
+     "txt": "No cumple: Conductividad eléctrica",
+     "medidos": 7,
+     "total": 9,
+     "exc": [
+      "ce"
+     ],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  },
+  {
+   "sitio": "P2",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 19,
+     "total": 31,
+     "exc": [],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 16,
+     "total": 22,
+     "exc": [],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 18,
+     "total": 26,
+     "exc": [],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "warn",
+     "txt": "Supera valores no sanitarios: Sólidos disueltos totales",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "sdt"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "b"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Cinc, Cobre",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "b",
+      "zn",
+      "cu"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 11,
+     "total": 19,
+     "exc": [
+      "b"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "warn",
+     "txt": "Restricción ligera a moderada: Conductividad eléctrica, Sólidos disueltos totales, RAS (relación de adsorción de sodio), Boro, Nitrato, Bicarbonato",
+     "medidos": 8,
+     "total": 8,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 8,
+     "total": 17,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 22,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 20,
+     "exc": [],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "b",
+      "sdt"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 6,
+     "total": 10,
+     "exc": [
+      "b"
+     ],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "exc",
+     "txt": "No cumple: Oxígeno disuelto",
+     "medidos": 5,
+     "total": 5,
+     "exc": [
+      "od"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "exc",
+     "txt": "No cumple: Cinc",
+     "medidos": 1,
+     "total": 1,
+     "exc": [
+      "zn"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "exc",
+     "txt": "No cumple: Oxígeno disuelto",
+     "medidos": 4,
+     "total": 4,
+     "exc": [
+      "od"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "exc",
+     "txt": "No cumple: pH, Oxígeno disuelto, Conductividad eléctrica",
+     "medidos": 7,
+     "total": 9,
+     "exc": [
+      "ph",
+      "od",
+      "ce"
+     ],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  },
+  {
+   "sitio": "V1",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Cloruro, Fluoruro, Manganeso, Sólidos disueltos totales, Sulfato, Coliformes totales, Escherichia coli",
+     "medidos": 19,
+     "total": 31,
+     "exc": [
+      "turb",
+      "as",
+      "b",
+      "cl",
+      "dureza",
+      "f",
+      "mn",
+      "sdt",
+      "so4",
+      "colt",
+      "ecoli"
+     ],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Manganeso, Escherichia coli",
+     "medidos": 16,
+     "total": 22,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "mn",
+      "ecoli",
+      "sdt",
+      "cl",
+      "so4",
+      "na"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Escherichia coli",
+     "medidos": 18,
+     "total": 26,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "ecoli",
+      "cl",
+      "ce",
+      "fe",
+      "mn",
+      "so4",
+      "na",
+      "colt"
+     ],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Escherichia coli",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "as",
+      "ecoli",
+      "cl",
+      "mn",
+      "so4",
+      "sdt"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Manganeso",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "mn"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Cinc, Cobre, Manganeso",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "as",
+      "b",
+      "zn",
+      "cu",
+      "mn"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Litio, Uranio",
+     "medidos": 11,
+     "total": 19,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "li",
+      "u"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "exc",
+     "txt": "No cumple: Conductividad eléctrica, Sólidos disueltos totales, RAS (relación de adsorción de sodio), Cloruro, Boro, Bicarbonato",
+     "medidos": 8,
+     "total": 8,
+     "exc": [
+      "ce",
+      "sdt",
+      "sar",
+      "cl",
+      "b",
+      "hco3"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Fluoruro",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "b",
+      "f"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Sólidos disueltos totales",
+     "medidos": 13,
+     "total": 22,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "sdt"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Fluoruro",
+     "medidos": 13,
+     "total": 20,
+     "exc": [
+      "b",
+      "f"
+     ],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli, Arsénico, Fluoruro, Boro",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "ecoli",
+      "as",
+      "f",
+      "b",
+      "na",
+      "mn",
+      "cl",
+      "dureza",
+      "sdt",
+      "turb"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Fluoruro, Boro",
+     "medidos": 6,
+     "total": 10,
+     "exc": [
+      "as",
+      "f",
+      "b"
+     ],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "exc",
+     "txt": "No cumple: Oxígeno disuelto",
+     "medidos": 5,
+     "total": 5,
+     "exc": [
+      "od"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "exc",
+     "txt": "No cumple: Cinc",
+     "medidos": 1,
+     "total": 1,
+     "exc": [
+      "zn"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 4,
+     "total": 4,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "exc",
+     "txt": "No cumple: pH, Conductividad eléctrica, Arsénico",
+     "medidos": 7,
+     "total": 9,
+     "exc": [
+      "ph",
+      "ce",
+      "as"
+     ],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  },
+  {
+   "sitio": "V2",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Cloruro, Fluoruro, Hierro, Sólidos disueltos totales, Sulfato, Coliformes totales",
+     "medidos": 19,
+     "total": 31,
+     "exc": [
+      "as",
+      "b",
+      "cl",
+      "dureza",
+      "f",
+      "fe",
+      "sdt",
+      "so4",
+      "colt"
+     ],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro",
+     "medidos": 16,
+     "total": 22,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "sdt",
+      "cl",
+      "so4",
+      "na",
+      "fe"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro",
+     "medidos": 18,
+     "total": 26,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "cl",
+      "ce",
+      "fe",
+      "mn",
+      "so4",
+      "na",
+      "colt"
+     ],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "as",
+      "cl",
+      "fe",
+      "mn",
+      "so4",
+      "sdt"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Hierro",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "fe"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Cinc, Cobre",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "as",
+      "b",
+      "zn",
+      "cu"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Litio, Uranio",
+     "medidos": 11,
+     "total": 19,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "li",
+      "u"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "exc",
+     "txt": "No cumple: Conductividad eléctrica, Sólidos disueltos totales, RAS (relación de adsorción de sodio), Cloruro, Boro",
+     "medidos": 8,
+     "total": 8,
+     "exc": [
+      "ce",
+      "sdt",
+      "sar",
+      "cl",
+      "b"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Cinc, Fluoruro",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "b",
+      "zn",
+      "f"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Boro, Fluoruro, Sólidos disueltos totales",
+     "medidos": 13,
+     "total": 22,
+     "exc": [
+      "as",
+      "b",
+      "f",
+      "sdt"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "exc",
+     "txt": "No cumple: Boro, Fluoruro, Sólidos disueltos totales",
+     "medidos": 13,
+     "total": 20,
+     "exc": [
+      "b",
+      "f",
+      "sdt"
+     ],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Fluoruro, Boro",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "as",
+      "f",
+      "b",
+      "fe",
+      "na",
+      "mn",
+      "cl",
+      "dureza",
+      "sdt",
+      "turb"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "exc",
+     "txt": "No cumple: Arsénico, Fluoruro, Boro",
+     "medidos": 6,
+     "total": 10,
+     "exc": [
+      "as",
+      "f",
+      "b"
+     ],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "exc",
+     "txt": "No cumple: Oxígeno disuelto",
+     "medidos": 5,
+     "total": 5,
+     "exc": [
+      "od"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "exc",
+     "txt": "No cumple: Cinc",
+     "medidos": 1,
+     "total": 1,
+     "exc": [
+      "zn"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 4,
+     "total": 4,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "exc",
+     "txt": "No cumple: pH, Conductividad eléctrica, Arsénico",
+     "medidos": 7,
+     "total": 9,
+     "exc": [
+      "ph",
+      "ce",
+      "as"
+     ],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  },
+  {
+   "sitio": "R1",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "exc",
+     "txt": "No cumple: Hierro, Coliformes totales, Escherichia coli",
+     "medidos": 19,
+     "total": 31,
+     "exc": [
+      "turb",
+      "fe",
+      "colt",
+      "ecoli"
+     ],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 16,
+     "total": 22,
+     "exc": [
+      "ecoli",
+      "fe"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 18,
+     "total": 26,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn",
+      "colt"
+     ],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Hierro",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "fe"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Cobre",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "cu"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "exc",
+     "txt": "No cumple: Boro",
+     "medidos": 11,
+     "total": 19,
+     "exc": [
+      "b"
+     ],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "warn",
+     "txt": "Restricción ligera a moderada: Bicarbonato",
+     "medidos": 8,
+     "total": 8,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 8,
+     "total": 17,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 22,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 20,
+     "exc": [],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn",
+      "turb"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 6,
+     "total": 10,
+     "exc": [],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "exc",
+     "txt": "No cumple: Oxígeno disuelto",
+     "medidos": 5,
+     "total": 5,
+     "exc": [
+      "od"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 1,
+     "total": 1,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 4,
+     "total": 4,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "exc",
+     "txt": "No cumple: Conductividad eléctrica",
+     "medidos": 7,
+     "total": 9,
+     "exc": [
+      "ce"
+     ],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  },
+  {
+   "sitio": "R2",
+   "eval": [
+    {
+     "id": "caa982",
+     "cls": "exc",
+     "txt": "No cumple: Hierro, Coliformes totales, Escherichia coli",
+     "medidos": 19,
+     "total": 31,
+     "exc": [
+      "turb",
+      "fe",
+      "colt",
+      "ecoli"
+     ],
+     "faltan": [
+      "color",
+      "nh4",
+      "sb",
+      "al",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "pseud",
+      "meso"
+     ]
+    },
+    {
+     "id": "who2022",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 16,
+     "total": 22,
+     "exc": [
+      "ecoli",
+      "fe"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "cr",
+      "hg",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "ue2020",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 18,
+     "total": 26,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn",
+      "colt"
+     ],
+     "faltan": [
+      "sb",
+      "cr",
+      "cn",
+      "hg",
+      "ni",
+      "se",
+      "al",
+      "nh4"
+     ]
+    },
+    {
+     "id": "epa",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 16,
+     "total": 27,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn"
+     ],
+     "faltan": [
+      "sb",
+      "ba",
+      "be",
+      "cr",
+      "cn",
+      "hg",
+      "se",
+      "tl",
+      "al",
+      "color",
+      "ag"
+     ]
+    },
+    {
+     "id": "d831_t1",
+     "cls": "exc",
+     "txt": "No cumple: Hierro",
+     "medidos": 12,
+     "total": 25,
+     "exc": [
+      "fe"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "ba",
+      "be",
+      "cn",
+      "cr",
+      "cr6",
+      "hg",
+      "ni",
+      "ag",
+      "se",
+      "tl"
+     ]
+    },
+    {
+     "id": "d831_t2",
+     "cls": "exc",
+     "txt": "No cumple: Cobre",
+     "medidos": 8,
+     "total": 17,
+     "exc": [
+      "cu"
+     ],
+     "faltan": [
+      "al",
+      "nh4",
+      "sb",
+      "cn",
+      "cr",
+      "hg",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "d831_t5",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 11,
+     "total": 19,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "fao29",
+     "cls": "warn",
+     "txt": "Restricción ligera a moderada: Bicarbonato",
+     "medidos": 8,
+     "total": 8,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "d831_t6",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 8,
+     "total": 17,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "co",
+      "cr",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "ccme_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 22,
+     "exc": [],
+     "faltan": [
+      "al",
+      "be",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se",
+      "v"
+     ]
+    },
+    {
+     "id": "anzg_ganado",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 13,
+     "total": 20,
+     "exc": [],
+     "faltan": [
+      "al",
+      "cr",
+      "co",
+      "hg",
+      "mo",
+      "ni",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_suido",
+     "cls": "exc",
+     "txt": "No cumple: Escherichia coli",
+     "medidos": 18,
+     "total": 27,
+     "exc": [
+      "ecoli",
+      "fe",
+      "mn",
+      "turb"
+     ],
+     "faltan": [
+      "meso",
+      "hg",
+      "se",
+      "cr6",
+      "cn",
+      "pfas",
+      "al",
+      "cot",
+      "color"
+     ]
+    },
+    {
+     "id": "jp_eqs_salud",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 6,
+     "total": 10,
+     "exc": [],
+     "faltan": [
+      "cr6",
+      "hg",
+      "cn",
+      "se"
+     ]
+    },
+    {
+     "id": "jp_rio",
+     "cls": "exc",
+     "txt": "No cumple: DBO₅, Sólidos suspendidos totales, Oxígeno disuelto, Escherichia coli",
+     "medidos": 5,
+     "total": 5,
+     "exc": [
+      "dbo",
+      "sst",
+      "od",
+      "ecoli"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_biota",
+     "cls": "ok",
+     "txt": "Cumple",
+     "medidos": 1,
+     "total": 1,
+     "exc": [],
+     "faltan": []
+    },
+    {
+     "id": "jp_ind",
+     "cls": "exc",
+     "txt": "No cumple: DBO₅, Sólidos suspendidos totales",
+     "medidos": 4,
+     "total": 4,
+     "exc": [
+      "dbo",
+      "sst"
+     ],
+     "faltan": []
+    },
+    {
+     "id": "jp_riego",
+     "cls": "parcial",
+     "txt": "Cumple en lo medido",
+     "medidos": 7,
+     "total": 9,
+     "exc": [],
+     "faltan": [
+      "codmn",
+      "nt"
+     ]
+    }
+   ]
+  }
+ ],
+ "controles": [
+  [
+   "info",
+   "Muestra 2 · P2 · 12/05/2026",
+   "100 × aniones / CE = 1,12 (APHA espera 0,9–1,1 en agua dulce)."
+  ],
+  [
+   "info",
+   "Muestra 3 · V1 · 12/05/2026",
+   "SDT medido / SDT calculado = 1,00 (APHA espera 1,0–1,2)."
+  ],
+  [
+   "info",
+   "Muestra 4 · V2 · 12/05/2026",
+   "SDT medido / SDT calculado = 1,00 (APHA espera 1,0–1,2)."
+  ],
+  [
+   "info",
+   "Muestra 6 · R2 · 12/05/2026",
+   "100 × aniones / CE = 1,14 (APHA espera 0,9–1,1 en agua dulce)."
+  ]
+ ]
+}

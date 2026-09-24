@@ -1,0 +1,28 @@
+Informe de ensayo de ejemplo (datos ficticios)
+Parámetro	Unidad	LD	Método	P1	V1	R1
+Fecha				12/05/2026	12/05/2026	13/05/2026
+pH	upH		4500-H	7,85	8,10	6,20
+Conductividad	µS/cm		2510	1250	4800	380
+Temperatura	°C			14,2	9,5	11,0
+Sólidos disueltos totales	mg/l	10	2540C	820	3150	240
+Calcio	mg/l	0,5		62	180	28
+Magnesio	mg/l	0,5		18	75	6
+Sodio	mg/l	0,5		160	820	35
+Potasio	mg/l	0,5		12	65	4
+Cloruros	mg/l	1		180	1350	22
+Sulfatos	mg/l	1		140	520	40
+Alcalinidad total	mg/l CaCO3	5		210	180	80
+Nitratos	mg/l NO3-	0,5		18	3,2	<0,5
+Nitritos	mg/l NO2-	0,01		<0,01	0,05	<0,01
+Fluoruros	mg/l	0,05		1,2	2,1	0,3
+Arsénico	µg/l	1		8	180	6
+Boro	mg/l	0,05		1,8	12,5	0,4
+Litio	mg/l	0,01		0,8	15	0,05
+Hierro total	mg/l	0,02		0,05	0,3	0,6
+Manganeso	mg/l	0,01		<0,01	0,12	0,05
+Plomo	mg/l	0,005		<0,005	<0,005	ND
+Cadmio	µg/l	0,1		<0,1	0,4	<0,1
+Cobre	mg/l	0,005		0,01	0,008	0,012
+Cinc	mg/l	0,01		0,03	0,05	0,08
+Coliformes totales	NMP/100 ml			Ausencia	23	>2400
+Escherichia coli	NMP/100 ml			Ausencia	Ausencia	150

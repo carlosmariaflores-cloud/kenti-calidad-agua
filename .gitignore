@@ -1,0 +1,5 @@
+src/web/
+src/rsrc_windows_amd64.syso
+*.exe
+verificacion/casos.json
+__pycache__/

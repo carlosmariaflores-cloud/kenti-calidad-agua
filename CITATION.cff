@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "Si usás este software, citalo así. / If you use this software, please cite it as below."
 title: "Kenti Calidad de Agua / Kenti Water Quality: evaluación de análisis de agua frente a múltiples marcos normativos"
-version: 0.2.0
-date-released: 2026-09-23
+version: "0.2"
+doi: 10.5281/zenodo.22938332
+date-released: 2026-09-24
 license: MIT
 repository-code: "https://github.com/carlosmariaflores-cloud/kenti-calidad-agua"
 authors:

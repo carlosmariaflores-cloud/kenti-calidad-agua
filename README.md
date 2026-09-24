@@ -1,5 +1,7 @@
 # Kenti Calidad de Agua · Kenti Water Quality
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22938332.svg)](https://doi.org/10.5281/zenodo.22938332)
+
 Evaluación de análisis de agua frente a varios marcos normativos a la vez, con
 parámetros opcionales. Lo que no se midió no se inventa: queda como faltante y
 se informa como salvedad.
@@ -102,7 +104,7 @@ versión 0.2 (idénticos a los de la 0.1):
 ## Licencia y cita
 
 - Código bajo licencia MIT (ver `LICENSE`). El nombre y el logo de Kenti no están incluidos en la licencia.
-- Para citar, ver `CITATION.cff`.
+- Para citar, ver `CITATION.cff`. Versión 0.2 archivada en Zenodo: [doi:10.5281/zenodo.22938332](https://doi.org/10.5281/zenodo.22938332).
 
 ---
 
@@ -121,4 +123,5 @@ density, and conductivity at 25 °C. It resolves conditional limits, applies
 explicit rules for censored values (<LOD), and computes the CCME WQI, ion
 balance, SAR and Langelier indices. It runs offline, and every calculation is
 verified against an independent Python implementation (`verificacion/`).
-MIT licensed; the Kenti name and logo are excluded.
+MIT licensed; the Kenti name and logo are excluded. Version 0.2 is archived in Zenodo:
+[doi:10.5281/zenodo.22938332](https://doi.org/10.5281/zenodo.22938332); see `CITATION.cff` to cite it.
